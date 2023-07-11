@@ -4,7 +4,7 @@
 
 ## Description
 
-The DFROBOT LCD Library repository contains a source file with relevant function definitions and a main file containing driver code to provide an  interface to control the LCD display. The source code makes use of the I2C communication protocol to properly configure hardware register values and initialize the LCD for user control. This library is designed to work specifically with DFROBOT I2C-based LCD displays, making it easy to integrate and utilize the LCD functionality in your PSoC6 projects.
+The BLE Distance Sensor repository contains a main file with relevant code in order to properly measure data from the HC-SR04 sensor and display these values over BLE using the BLESS middleware library. The main file contains code related to the software based interrupt, initializes hardware and makes use of the BLE protocol to properly display values. This library is designed to work with the HC-SR04 sensor and PSoC6 MCU. 
 
 ## Features
 
@@ -13,7 +13,7 @@ The DFROBOT LCD Library repository contains a source file with relevant function
 
 ## Contributing
 
-Contributions are welcome and greatly appreciated. To contribute to the DFROBOT LCD I2C Library, please follow these steps:
+Contributions are welcome and greatly appreciated. To contribute to the BLE Distance Sensor repository, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
