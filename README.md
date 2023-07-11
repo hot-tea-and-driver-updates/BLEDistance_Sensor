@@ -8,10 +8,8 @@ The DFROBOT LCD Library repository contains a source file with relevant function
 
 ## Features
 
-- Supports both 16x2 and 20x4 LCD display modules.
-- Provides simple functions to initialize the display, set the cursor position, clear the display, and print text.
-- Customizable backlight control for supported displays.
-- Optimized I2C communication for improved performance.
+- Software based interrupt to correctly measure distance from HC-SR04 sensor
+- BLE support to accurately display sensor data as characteristics on a BLE supported application. 
 
 ## Contributing
 
